@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: auto;	
+}
+
+body {
+	background-image: url(Imagenes/mainFondo.jpg)
+}
+
+.margen {
+	width: 100%;
+	height: 20px;
+	/*background-color: yellow;	*/
+}
+
+#logo {
+	width: 100%;
+	height: 100px;
+	background-color: red;
+}
+
+#menu {
+	width: 100%;
+	height: 50px;
+	background-color: white;	
+}
+
+#muestrario {
+	width: 80%;
+	height: 350px;
+	background-color: yellow;
+}
+
+#columnasInfo {
+	width: 80%;	
+}
+
+.columna {
+	width: 33%;
+	height: 300px;
+	background-color: black;
+	border: solid 1px white;
+}
+
+#columna1 {
+	background-color: #C6F;
+	float: left;
+}
+
+#columna2 {
+	background-color:#9FF;
+	float: left;
+	margin-left: 1px;
+}
+
+#columna3 {
+	background-color:#903;
+		float: right;;
+}
+
+#principal {
+/*	background-color: blue;*/
+	width: 80%;
+	height: 800px;
+}
